@@ -1,0 +1,13 @@
+13:44:02.478594 IP 10.53.1.1.52848 > 10.53.0.53.53: 4880+ [1au] A? 10.53.0.53. (51)
+13:44:02.479293 IP 10.53.0.53.53 > 10.53.1.1.52848: 4880 NXDomain 0/1/1 (110)
+13:44:02.548648 IP 10.53.1.1.38543 > 10.53.0.53.53: Flags [S], seq 646804355, win 64660, options [mss 1220,sackOK,TS val 355478685 ecr 0,nop,wscale 7], length 0
+13:44:02.548695 IP 10.53.0.53.53 > 10.53.1.1.38543: Flags [S.], seq 1425977979, ack 646804356, win 65160, options [mss 1460,sackOK,TS val 1306750639 ecr 355478685,nop,wscale 7], length 0
+13:44:02.568719 IP 10.53.1.1.38543 > 10.53.0.53.53: Flags [.], ack 1, win 506, options [nop,nop,TS val 355478705 ecr 1306750639], length 0
+13:44:02.568752 IP 10.53.1.1.38543 > 10.53.0.53.53: Flags [P.], seq 1:54, ack 1, win 506, options [nop,nop,TS val 355478705 ecr 1306750639], length 53 27097+ [1au] A? 10.53.0.53. (51)
+13:44:02.568761 IP 10.53.0.53.53 > 10.53.1.1.38543: Flags [.], ack 54, win 509, options [nop,nop,TS val 1306750659 ecr 355478705], length 0
+13:44:02.568830 IP 10.53.0.53.53 > 10.53.1.1.38543: Flags [P.], seq 1:113, ack 54, win 509, options [nop,nop,TS val 1306750659 ecr 355478705], length 112 27097 NXDomain 0/1/1 (110)
+13:44:02.588851 IP 10.53.1.1.38543 > 10.53.0.53.53: Flags [.], ack 113, win 506, options [nop,nop,TS val 355478725 ecr 1306750659], length 0
+13:44:02.588963 IP 10.53.1.1.38543 > 10.53.0.53.53: Flags [F.], seq 54, ack 113, win 506, options [nop,nop,TS val 355478725 ecr 1306750659], length 0
+13:44:02.589008 IP 10.53.0.53.53 > 10.53.1.1.38543: Flags [F.], seq 113, ack 55, win 509, options [nop,nop,TS val 1306750679 ecr 355478725], length 0
+13:44:02.609023 IP 10.53.1.1.38543 > 10.53.0.53.53: Flags [.], ack 114, win 506, options [nop,nop,TS val 355478745 ecr 1306750679], length 0
+

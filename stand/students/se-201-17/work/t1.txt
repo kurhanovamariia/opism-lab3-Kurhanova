@@ -1,0 +1,11 @@
+ 00:00:00.000000 IP 10.53.1.1.60376 > 10.53.0.80.80: Flags [S], seq 3000584375, win 64240, options [mss 1460,sackOK,TS val 938532373 ecr 0,nop,wscale 7], length 0
+ 00:00:00.000055 IP 10.53.0.80.80 > 10.53.1.1.60376: Flags [S.], seq 2168608647, ack 3000584376, win 65160, options [mss 1460,sackOK,TS val 198579594 ecr 938532373,nop,wscale 7], length 0
+ 00:00:00.020024 IP 10.53.1.1.60376 > 10.53.0.80.80: Flags [.], ack 2168608648, win 502, options [nop,nop,TS val 938532393 ecr 198579594], length 0
+ 00:00:00.000045 IP 10.53.1.1.60376 > 10.53.0.80.80: Flags [P.], seq 3000584376:3000584458, ack 2168608648, win 502, options [nop,nop,TS val 938532393 ecr 198579594], length 82: HTTP: GET /small.txt HTTP/1.1
+ 00:00:00.000009 IP 10.53.0.80.80 > 10.53.1.1.60376: Flags [.], ack 3000584458, win 509, options [nop,nop,TS val 198579614 ecr 938532393], length 0
+ 00:00:00.000098 IP 10.53.0.80.80 > 10.53.1.1.60376: Flags [P.], seq 2168608648:2168608912, ack 3000584458, win 509, options [nop,nop,TS val 198579614 ecr 938532393], length 264: HTTP: HTTP/1.1 200 OK
+ 00:00:00.020021 IP 10.53.1.1.60376 > 10.53.0.80.80: Flags [.], ack 2168608912, win 501, options [nop,nop,TS val 938532413 ecr 198579614], length 0
+ 00:00:00.000171 IP 10.53.1.1.60376 > 10.53.0.80.80: Flags [F.], seq 3000584458, ack 2168608912, win 501, options [nop,nop,TS val 938532413 ecr 198579614], length 0
+ 00:00:00.000037 IP 10.53.0.80.80 > 10.53.1.1.60376: Flags [F.], seq 2168608912, ack 3000584459, win 509, options [nop,nop,TS val 198579634 ecr 938532413], length 0
+ 00:00:00.020013 IP 10.53.1.1.60376 > 10.53.0.80.80: Flags [.], ack 2168608913, win 501, options [nop,nop,TS val 938532433 ecr 198579634], length 0
+

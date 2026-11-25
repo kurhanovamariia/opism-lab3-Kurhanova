@@ -1,0 +1,28 @@
+[
+ {
+  "id": "se-201-17",
+  "ip": "10.53.1.1",
+  "iperf_port": 5201,
+  "faults": [
+   "reset",
+   "hang",
+   "ok",
+   "drop",
+   "closed"
+  ],
+  "fault_ports": [
+   20012,
+   20015,
+   20016,
+   20013,
+   20018
+  ],
+  "messages": [
+   "VICTOR",
+   "ECHO",
+   "BRAVO",
+   "DELTA",
+   "GOLF"
+  ]
+ }
+]

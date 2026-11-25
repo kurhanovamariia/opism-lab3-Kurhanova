@@ -1,0 +1,11 @@
+; Zone lab. Generated from students.csv, do not edit by hand.
+$TTL 3600
+@        IN SOA ns1.nic.lab. hostmaster.nic.lab. ( 1795606273 1800 900 604800 60 )
+@        IN NS  ns1.nic.lab.
+ns1.nic  IN A   10.53.0.3
+srv      IN A   10.53.0.80
+
+; delegations to student zones + glue
+se-201-17    IN NS ns.se-201-17.lab.
+ns.se-201-17 IN A  10.53.1.1
+

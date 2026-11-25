@@ -1,0 +1,15 @@
+; Zone se-201-17.lab for the transport lab. Everything needed is already here; no edits are required.
+$TTL 300
+@     IN SOA ns.se-201-17.lab. admin.se-201-17.lab. (
+            2026112501 ; serial
+            3600       ; refresh
+            600        ; retry
+            86400      ; expire
+            60         ; minimum
+        )
+@     IN NS ns.se-201-17.lab.
+ns    IN A  10.53.1.1
+me    IN A  10.53.1.1
+
+; remote server for every task
+srv   IN A  10.53.0.80
